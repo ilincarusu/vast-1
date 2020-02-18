@@ -19,7 +19,7 @@
         </Creative>
       </Creatives>
       <VASTAdTagURI>
-        <![CDATA[https://raw.githubusercontent.com/InteractiveAdvertisingBureau/VAST_Samples/master/VAST%204.2%20Samples/Inline_Simple.xml]]>
+        <![CDATA[https://github.com/adlibsv/vast/blob/master/wrapper_tag_test_redirect.xml]]>
       </VASTAdTagURI>
     </Wrapper>
   </Ad>
