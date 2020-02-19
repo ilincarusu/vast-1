@@ -160,19 +160,10 @@
 				</TrackingEvents>
 			</Verification>
 			<Verification>
-				<JavaScriptResource>
-					<![CDATA[https://verificationcompany.com/untrusted.js]]>
-				</JavaScriptResource>
 			</Verification>
 			<Verification vendor="company.com-omid">
-				<JavaScriptResource apiFramework="omid" browserOptional="true">
-					<![CDATA[ https://company.com/omid.js ]]>
-				</JavaScriptResource>
 				<TrackingEvents>
 				</TrackingEvents>
-				<VerificationParameters>
-					<![CDATA[parameter1=value1&parameter2=value2&parameter3=value3]]>
-				</VerificationParameters>
 			</Verification>
 		</AdVerifications>
 		<Advertiser>IAB Sample Company</Advertiser>
