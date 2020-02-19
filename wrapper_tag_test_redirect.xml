@@ -25,7 +25,7 @@
 							<Tracking event="start" >
 								<![CDATA[https://example.com/tracking/start]]>
 							</Tracking>
-							<Tracking event="progress" offset="00:00:10">
+							<Tracking event="progress" offset="00:00:02">
 								<![CDATA[http://example.com/tracking/progress-10]]>
 							</Tracking>
 							<Tracking event="firstQuartile">
@@ -57,6 +57,9 @@
 							<ClickThrough id="blog">
 								<![CDATA[https://iabtechlab.com]]>
 							</ClickThrough>
+							<ClickTracking>
+								<![CDATA[https://myTrackingURL/clickTracking?param=[APIFRAMEWORKS],[REASON],[GDPRCONSENT],[LIMITADTRACKING],[REGULATIONS],[ASSETURI],[APPBUNDLE],[DOMAIN],[PAGEURL],[PLAYERSIZE],[PLAYERSTATE],[CONTENTPLAYHEAD],[CACHEBUSTING],[TIMESTAMP]]]>
+							</ClickTracking>
 						</VideoClicks>
 					</Linear>
 					<UniversalAdId idRegistry="Ad-ID">8465</UniversalAdId>
@@ -82,7 +85,7 @@
 			<Advertiser>IAB Sample Company</Advertiser>
 			<Category authority="https://www.iabtechlab.com/categoryauthority">AD CONTENT description category</Category>
 			<Creatives>
-				<Creative id="5480" sequence="1" adId="2447226">
+				<Creative id="5481" sequence="1" adId="2447227">
 					<Linear>
 						<TrackingEvents>
 							<Tracking event="start" >
@@ -106,13 +109,13 @@
 						</TrackingEvents>
 						<Duration>00:00:16</Duration>
 						<MediaFiles>
-							<MediaFile id="5241" delivery="progressive" type="video/mp4" bitrate="2000" width="1280" height="720" minBitrate="1500" maxBitrate="2500" scalable="1" maintainAspectRatio="1" codec="H.264">
+							<MediaFile id="5251" delivery="progressive" type="video/mp4" bitrate="2000" width="1280" height="720" minBitrate="1500" maxBitrate="2500" scalable="1" maintainAspectRatio="1" codec="H.264">
 								<![CDATA[https://iab-publicfiles.s3.amazonaws.com/vast/VAST-4.0-Short-Intro.mp4]]>
 							</MediaFile>
-							<MediaFile id="5244" delivery="progressive" type="video/mp4" bitrate="1000" width="854" height="480" minBitrate="700" maxBitrate="1500" scalable="1" maintainAspectRatio="1" codec="H.264">
+							<MediaFile id="5254" delivery="progressive" type="video/mp4" bitrate="1000" width="854" height="480" minBitrate="700" maxBitrate="1500" scalable="1" maintainAspectRatio="1" codec="H.264">
 								<![CDATA[https://iab-publicfiles.s3.amazonaws.com/vast/VAST-4.0-Short-Intro-mid-resolution.mp4]]>
 							</MediaFile>
-							<MediaFile id="5246" delivery="progressive" type="video/mp4" bitrate="600" width="640" height="360" minBitrate="500" maxBitrate="700" scalable="1" maintainAspectRatio="1" codec="H.264">
+							<MediaFile id="5256" delivery="progressive" type="video/mp4" bitrate="600" width="640" height="360" minBitrate="500" maxBitrate="700" scalable="1" maintainAspectRatio="1" codec="H.264">
 								<![CDATA[https://iab-publicfiles.s3.amazonaws.com/vast/VAST-4.0-Short-Intro-low-resolution.mp4]]>
 							</MediaFile>
 						</MediaFiles>
@@ -120,6 +123,9 @@
 							<ClickThrough id="blog">
 								<![CDATA[https://iabtechlab.com]]>
 							</ClickThrough>
+							<ClickTracking>
+								<![CDATA[https://myTrackingURL/clickTracking?param=[APIFRAMEWORKS],[REASON],[GDPRCONSENT],[LIMITADTRACKING],[REGULATIONS],[ASSETURI],[APPBUNDLE],[DOMAIN],[PAGEURL],[PLAYERSIZE],[PLAYERSTATE],[[CONTENTPLAYHEAD],[CACHEBUSTING],[TIMESTAMP]]]>
+							</ClickTracking>
 						</VideoClicks>
 					</Linear>
 					<UniversalAdId idRegistry="Ad-ID">8465</UniversalAdId>
