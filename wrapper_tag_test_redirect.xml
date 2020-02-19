@@ -127,4 +127,118 @@
 			</Creatives>
 		</InLine>
 	</Ad>
+	<Ad id="90001" sequence="1" conditionalAd="false">
+	<InLine>
+		<AdSystem version="1.0">iabtechlab</AdSystem>
+		<Error>
+			<![CDATA[https://example.com/error?errorCode=[ERRORCODE]]]>
+		</Error>
+		<Extensions>
+			<Extension type="iab-Count">
+				<total_available>
+					<![CDATA[ 2 ]]>
+				</total_available>
+			</Extension>
+		</Extensions>
+		<Impression id="Impression-ID">
+			<![CDATA[https://example.com/track/impression]]>
+		</Impression>
+		<Pricing model="cpm" currency="USD">
+			<![CDATA[ 25.00 ]]>
+		</Pricing>
+		<Expires>
+			<![CDATA[ 10 ]]>
+		</Expires>
+		<AdServingId>a532d16d-4d7f-4440-bd29-2ec0e693fc80</AdServingId>
+		<AdTitle>iabtechlab video ad</AdTitle>
+		<AdVerifications>
+			<Verification vendor="vendorKey">
+				<JavaScriptResource apiFramework="notOmid">
+					<![CDATA[https://verificationcompany1.com/verification_script1.js]]>
+				</JavaScriptResource>
+				<TrackingEvents>
+					<Tracking event="verificationNotExecuted">
+						<![CDATA[https://company.com/pixelNotOmid.jpg?error=[REASON]]]>
+					</Tracking>
+				</TrackingEvents>
+			</Verification>
+			<Verification>
+				<JavaScriptResource>
+					<![CDATA[https://verificationcompany.com/untrusted.js]]>
+				</JavaScriptResource>
+			</Verification>
+			<Verification vendor="company.com-omid">
+				<JavaScriptResource apiFramework="omid" browserOptional="true">
+					<![CDATA[ https://company.com/omid.js ]]>
+				</JavaScriptResource>
+				<TrackingEvents>
+					<Tracking event="verificationNotExecuted">
+						<![CDATA[https://company.com/pixel.jpg?error=[REASON]]]>
+					</Tracking>
+				</TrackingEvents>
+				<VerificationParameters>
+					<![CDATA[parameter1=value1&parameter2=value2&parameter3=value3]]>
+				</VerificationParameters>
+			</Verification>
+		</AdVerifications>
+		<Advertiser>IAB Sample Company</Advertiser>
+		<Category authority="foo" />
+		<Creatives>
+			<Creative id="5480" sequence="1" adId="2447226">
+				<Linear>
+					<TrackingEvents>
+						<Tracking event="pause">
+							<![CDATA[https://example.com/tracking/start?param=pause]]>
+						</Tracking>
+						<Tracking event="resume">
+							<![CDATA[https://example.com/tracking/start?param=resume]]>
+						</Tracking>
+						<Tracking event="closeLinear">
+							<![CDATA[https://example.com/tracking/start?param=playerLinear]]>
+						</Tracking>
+						<Tracking event="playerExpand">
+							<![CDATA[https://example.com/tracking/start?param=playerExpand]]>
+						</Tracking>
+						<Tracking event="playerCollapse">
+							<![CDATA[https://example.com/tracking/start?param=playerCollapse]]>
+						</Tracking>
+						<Tracking event="progress" offset="0%">
+							<![CDATA[http://example.com/tracking/progress-10?progress=0]]>
+						</Tracking>
+						<Tracking event="progress" offset="25%">
+							<![CDATA[http://example.com/tracking/progress-10?progress=0]]>
+						</Tracking>
+						<Tracking event="progress" offset="50%">
+							<![CDATA[http://example.com/tracking/progress-10?progress=0]]>
+						</Tracking>
+						<Tracking event="progress" offset="75%">
+							<![CDATA[http://example.com/tracking/progress-10?progress=0]]>
+						</Tracking>
+						<Tracking event="complete">
+							<![CDATA[https://example.com/tracking/complete]]>
+						</Tracking>
+					</TrackingEvents>
+					<Duration>00:00:16</Duration>
+					<MediaFiles>
+						<MediaFile id="5241" delivery="progressive" type="video/mp4" bitrate="2000" width="1280" height="720" minBitrate="1500" maxBitrate="2500" scalable="1" maintainAspectRatio="1" codec="H.264">
+							<![CDATA[https://iab-publicfiles.s3.amazonaws.com/vast/VAST-4.0-Short-Intro.mp4]]>
+						</MediaFile>
+						<MediaFile id="5244" delivery="progressive" type="video/mp4" bitrate="1000" width="854" height="480" minBitrate="700" maxBitrate="1500" scalable="1" maintainAspectRatio="1" codec="H.264">
+							<![CDATA[https://iab-publicfiles.s3.amazonaws.com/vast/VAST-4.0-Short-Intro-mid-resolution.mp4]]>
+						</MediaFile>
+						<MediaFile id="5246" delivery="progressive" type="video/mp4" bitrate="600" width="640" height="360" minBitrate="500" maxBitrate="700" scalable="1" maintainAspectRatio="1" codec="H.264">
+							<![CDATA[https://iab-publicfiles.s3.amazonaws.com/vast/VAST-4.0-Short-Intro-low-resolution.mp4]]>
+						</MediaFile>
+					</MediaFiles>
+					<VideoClicks>
+						<ClickThrough id="blog">
+							<![CDATA[https://iabtechlab.com]]>
+						</ClickThrough>
+					</VideoClicks>
+				</Linear>
+				<UniversalAdId idRegistry="Ad-ID" >8465</UniversalAdId>
+			</Creative>
+		</Creatives>
+	</InLine>
+</Ad>
 </VAST>
