@@ -61,7 +61,7 @@
 	</InLine>
 </Ad>
 	
-	<Ad id="20001" >
+	</Ad id="20001" >
 		<InLine>
 			<AdSystem version="1">iabtechlab</AdSystem>
 			<Error>
@@ -124,7 +124,7 @@
 			</Creatives>
 		</InLine>
 	</Ad>
-	<Ad id="20002" >
+	</Ad id="20002" >
 		<InLine>
 			<AdSystem version="1">iabtechlab</AdSystem>
 			<Error>
@@ -187,7 +187,7 @@
 			</Creatives>
 		</InLine>
 	</Ad>
-	<Ad id="90001" sequence="1" conditionalAd="false">
+	</Ad id="90001" sequence="1" conditionalAd="false">
 	<InLine>
 		<AdSystem version="1.0">iabtechlab</AdSystem>
 		<Error>
@@ -284,7 +284,7 @@
 	</InLine>
 </Ad>
 	
-<Ad id="bcff1bb0ee6a013728c822000a8873b9">
+</Ad id="bcff1bb0ee6a013728c822000a8873b9">
 	<InLine>
 		<AdSystem>Fiksu DSP</AdSystem>
 		<AdTitle>Static Ad Title</AdTitle>
