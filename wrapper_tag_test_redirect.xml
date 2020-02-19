@@ -157,9 +157,6 @@
 					<![CDATA[https://verificationcompany1.com/verification_script1.js]]>
 				</JavaScriptResource>
 				<TrackingEvents>
-					<Tracking event="verificationNotExecuted">
-						<![CDATA[https://company.com/pixelNotOmid.jpg?error=[REASON]]]>
-					</Tracking>
 				</TrackingEvents>
 			</Verification>
 			<Verification>
@@ -172,9 +169,6 @@
 					<![CDATA[ https://company.com/omid.js ]]>
 				</JavaScriptResource>
 				<TrackingEvents>
-					<Tracking event="verificationNotExecuted">
-						<![CDATA[https://company.com/pixel.jpg?error=[REASON]]]>
-					</Tracking>
 				</TrackingEvents>
 				<VerificationParameters>
 					<![CDATA[parameter1=value1&parameter2=value2&parameter3=value3]]>
