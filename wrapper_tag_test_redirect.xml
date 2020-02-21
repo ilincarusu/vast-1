@@ -55,7 +55,7 @@
 								<![CDATA[https://iabtechlab.com]]>
 							</ClickThrough>
 							<ClickTracking>
-								<![CDATA[https://myTrackingURL/clickTracking?param=[APIFRAMEWORKS],[REASON],[GDPRCONSENT],[LIMITADTRACKING],[REGULATIONS],[ASSETURI],[APPBUNDLE],[DOMAIN],[PAGEURL],[PLAYERSIZE],[PLAYERSTATE],[CONTENTPLAYHEAD],[CACHEBUSTING],[TIMESTAMP]]]>
+								<![CDATA[https://myTrackingURL/clickTracking?param=[APIFRAMEWORKS],[REASON],[GDPRCONSENT],[LIMITADTRACKING],[REGULATIONS],[ASSETURI],[APPBUNDLE],[DOMAIN],[PAGEURL],[PLAYERSIZE],[PLAYERSTATE],[CONTENTPLAYHEAD],[CACHEBUSTING],[TIMESTAMP],[PODSEQUENCE]]]>
 							</ClickTracking>
 						</VideoClicks>
 					</Linear>
